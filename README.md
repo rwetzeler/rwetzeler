@@ -2,7 +2,7 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![Technote's github stats](https://raw.githubusercontent.com/rwetzeler/rwetzeler/master/stats.svg)
+![github stats](https://raw.githubusercontent.com/rwetzeler/rwetzeler/master/stats.svg)
 ![Top Langs](https://raw.githubusercontent.com/rwetzeler/rwetzeler/master/langs.svg)
 
 
