@@ -1,5 +1,11 @@
 ### Hi there 👋
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![Technote's github stats](https://raw.githubusercontent.com/rwetzeler/rwetzeler/master/stats.svg)
+![Top Langs](https://raw.githubusercontent.com/rwetzeler/rwetzeler/master/langs.svg)
+
+
 <!--
 **rwetzeler/rwetzeler** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
