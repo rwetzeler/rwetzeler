@@ -18,56 +18,23 @@ jobs:
           echo "commit_flag1=" >> $GITHUB_ENV
           curl -sS -o stats.svg "https://github-readme-stats-technote-space.vercel.app/api?username=rwetzeler&show_icons=true&count_private=true&theme=algolia"
           if cat stats.svg | grep -q "svg"; then echo "commit_flag1=1" >> $GITHUB_ENV; fi
-      - name: Save stats
-        if: "! env.commit_flag1"
-        run: |
-          sleep 10
-          echo "commit_flag1=" >> $GITHUB_ENV
-          curl -sS -o stats.svg "https://github-readme-stats-technote-space.vercel.app/api?username=technote-space&show_icons=true&count_private=true&theme=algolia"
-          if cat stats.svg | grep -q "svg"; then echo "commit_flag1=1" >> $GITHUB_ENV; fi
-      - name: Save stats
-        if: "! env.commit_flag1"
-        run: |
-          sleep 15
-          echo "commit_flag1=" >> $GITHUB_ENV
-          curl -sS -o stats.svg "https://github-readme-stats-technote-space.vercel.app/api?username=technote-space&show_icons=true&count_private=true&theme=algolia"
-          if cat stats.svg | grep -q "svg"; then echo "commit_flag1=1" >> $GITHUB_ENV; fi
-
       - name: Save lang
         run: |
           echo "commit_flag2=" >> $GITHUB_ENV
           curl -sS -o langs.svg "https://github-readme-stats-technote-space.vercel.app/api/top-langs/?username=rwetzeler&layout=compact&theme=algolia"
           if cat langs.svg | grep -q "svg"; then echo "commit_flag2=1" >> $GITHUB_ENV; fi
-      - name: Save lang
-        if: "! env.commit_flag2"
-        run: |
-          sleep 2
-          echo "commit_flag2=" >> $GITHUB_ENV
-          curl -sS -o langs.svg "https://github-readme-stats-technote-space.vercel.app/api/top-langs/?username=rwetzeler&layout=compact&theme=algolia"
-          if cat langs.svg | grep -q "svg"; then echo "commit_flag2=1" >> $GITHUB_ENV; fi
-      - name: Save lang
-        if: "! env.commit_flag2"
-        run: |
-          sleep 2
-          echo "commit_flag2=" >> $GITHUB_ENV
-          curl -sS -o langs.svg "https://github-readme-stats-technote-space.vercel.app/api/top-langs/?username=rwetzeler&layout=compact&theme=algolia"
-          if cat langs.svg | grep -q "svg"; then echo "commit_flag2=1" >> $GITHUB_ENV; fi
-
       - name: Setup git
         if: env.commit_flag1 || env.commit_flag2
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
       - name: Git add changes
-        if: env.commit_flag1
         run: |
           git add stats.svg
       - name: Git add changes
-        if: env.commit_flag2
         run: |
           git add langs.svg
       - name: Check diff
-        if: env.commit_flag1 || env.commit_flag2
         run: |
           diff=$(git status --short -uno | grep -e '^[MAD]' || :)
           if [ -n "${diff}" ]; then echo "commit_flag=1" >> $GITHUB_ENV; fi
