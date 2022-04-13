@@ -2,10 +2,13 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<!--
-![github stats](https://raw.githubusercontent.com/rwetzeler/rwetzeler/master/stats.svg)
-![Top Langs](https://raw.githubusercontent.com/rwetzeler/rwetzeler/master/langs.svg)
--->
+
+
+[![Rob's GitHub stats](https://github-readme-stats.vercel.app/api?username=rwetzeler&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rwetzeler&theme=dark)](https://git.io/streak-stats)
+
+![](https://komarev.com/ghpvc/?username=rwetzeler&color=lightgrey)
 
 <!--
 **rwetzeler/rwetzeler** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
