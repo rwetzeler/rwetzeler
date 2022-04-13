@@ -6,7 +6,7 @@
 
 [![Rob's GitHub stats](https://github-readme-stats.vercel.app/api?username=rwetzeler&count_private=true&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rwetzeler&theme=dark&count_private=true)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rwetzeler&count_private=true&show_icons=truetheme=dark&count_private=true)](https://git.io/streak-stats)
 
 ![](https://komarev.com/ghpvc/?username=rwetzeler&color=lightgrey)
 
