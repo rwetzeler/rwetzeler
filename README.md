@@ -4,7 +4,7 @@
 
 
 
-[![Rob's GitHub stats](https://github-readme-stats.vercel.app/api?username=rwetzeler&count_private=true&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![Rob's GitHub stats](https://github-readme-stats.vercel.app/api?username=rwetzeler&count_private=true&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rwetzeler&theme=dark&count_private=true)](https://git.io/streak-stats)
 
